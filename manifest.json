@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Linkedin Connector",
+    "description": "Sends connections on the current Linkedin search page",
+    "version": "1.0",
+    "permissions": [
+
+        "scripting",
+        "activeTab",
+        "clipboardRead",
+        "clipboardWrite",
+        "tabs",
+        "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "linkedin.png"
+    }
+  }
